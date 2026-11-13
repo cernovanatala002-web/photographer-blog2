@@ -1,0 +1,21 @@
+# Python (виртуальное окружение и кэш)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django (локальная база и медиа)
+db.sqlite3
+media/
+staticfiles/
+
+# Nuxt / Node.js (зависимости и сборка)
+frontend/node_modules/
+frontend/.nuxt/
+frontend/.output/
+frontend/dist/
+
+# Прочее
+.env
+.DS_Store
